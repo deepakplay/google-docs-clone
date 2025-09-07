@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
     return (
-        <html lang="en" suppressHydrationWarning>
+        <html lang="en">
             <body className={cn(interFont.className, "antialiased")}>
                 {children}
             </body>
